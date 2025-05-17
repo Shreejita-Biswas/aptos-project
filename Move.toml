@@ -1,0 +1,12 @@
+[package]
+name = "aptos-project"
+version = "1.0.0"
+authors = []
+
+[addresses]
+HealthSystem = "a56f6118ffe82981333166462965907accec639c68ebfa2f0b34308581c49a93"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "main"
+subdir = "aptos-framework"
